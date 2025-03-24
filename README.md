@@ -119,7 +119,3 @@ Contributions are welcome! Please fork the repository and submit pull requests f
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to adjust the sections to better fit your project details and add any additional information as needed.
