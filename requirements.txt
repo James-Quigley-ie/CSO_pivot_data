@@ -1,9 +1,10 @@
-sentence-transformers==3.0.1
-faiss-cpu>=1.7.0  # Use CPU-only version
-pandas>=2.0.0
-datetime
-groq>=0.3.0
-numpy
-flask>=3.0.0
-plotly>=5.0.0
 cso_ireland_data
+faiss-cpu
+sentence_transformers
+huggingface_hub
+pandas
+datetime
+groq
+numpy
+flask
+plotly
