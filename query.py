@@ -13,7 +13,7 @@ import json
 pd.set_option("display.max_colwidth", None)    # no truncation
 pd.set_option("display.width", None)    
 
-# Initialize client with API key
+# Initialize client with API keyllama-3.3-70b-versatile
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # Load metadata and models
@@ -140,7 +140,7 @@ def get_table(exception=None):
     
     chat_completion = client.chat.completions.create(
         messages=messages,
-        model="llama-3.3-70b-specdec",
+        model="llama-3.3-70b-versatile",
         temperature=0,
     )
     table_select_result = chat_completion.choices[0].message.content.strip()
@@ -274,7 +274,7 @@ def get_title(exception=None):
     
     chat_completion = client.chat.completions.create(
         messages=messages,
-        model="llama-3.3-70b-specdec",
+        model="llama-3.3-70b-versatile",
         temperature=0,
     )
     
